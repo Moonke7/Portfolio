@@ -77,6 +77,12 @@
     .texto__info{
         height: 60%;
     }
+    .nombres{
+        width: 100%;
+    }
+    .nombres h2{
+        font-size: 1.2em;
+    }
 
 
     /* LINKS SECTION */
