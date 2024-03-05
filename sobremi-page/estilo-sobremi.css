@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;;
+}
+body{
+    position: relative;
+    height: 110vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(70deg, #c9ffff, #007fa1);
+}
+.container{
+    z-index: 100;
+    margin: 0 2%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+header{
+    z-index: 150;
+    width: 90%;
+    height: 5vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links__header{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+.links__header ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.links__header li a{
+    text-decoration: none;
+    color: #eaffff;
+}
+.links__header li a:hover{
+    color: #add4dd;
+    transition: .5;
+}
+
+.links__responsive{
+    position: absolute;
+    top: -1000px;
+}
+.links__responsive img{
+    cursor: pointer;
+}
+
+/* SECTION */
+
+section{
+    width: 100%;
+    height: 95vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 6%;
+}
+section h1{
+    height: 8%;
+    width: 40%;
+    margin-bottom: -10%;
+    border-bottom: solid black 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 4em;
+}
+.bloques__container{
+    width: 85%;
+    height: 70%;
+    position: relative;
+}
+.bloques__container h2{
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-family: "Raleway";
+    color: #333f43;
+}
+.bloques__container h4{
+    font-size: 1.1em;
+    font-family: "Raleway";
+    color: #252a2b;
+}
+.bloques__container a{
+    text-decoration: none;
+}
+
+.sobremi, .servicios, .estudios{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: auto;
+    padding: 15px;
+    background-color: #3b90a8;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.sobremi{
+    top: 5%;
+    right: -10%;
+}
+.sobremi img{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+
+
+.servicios{
+    bottom: -10%;
+    left: 55%;
+    padding-left: 25px;
+}
+.servicios li{
+    margin-bottom: 5px;
+}
+.servicios b{
+    color: #000000;
+}
+
+
+
+.estudios{
+    top: 32%;
+}
+.estudios ul{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 1.1em;
+    position: relative;
+    z-index: 10;
+}
+.estudios li{
+    margin-left: 5px;
+}
+.estudios li a img{
+    height: 30px;
+    width: auto;
+}
+
+
+.contacto__section{
+    bottom: -35%;
+    position: absolute;
+    width: 85%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto__section ul{
+    list-style: none;
+    display: flex;
+}
+.contacto__section a{
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+}
+.contacto__section h3{
+    font-size: 1.5em;
+    margin-right: 5px;
+    color: #eaffff;
+}
+
+#contact_pic{
+    height: auto;
+    width: 100px;
+}
+
+/* footer */
+
+footer{
+    border-top: solid black 4px;
+    height: 10vh;
+    width: 101%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contacto__footer{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacto__footer ul{
+    list-style: none;
+    display: flex;
+}
+.contacto__footer a{
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+}
+.contacto__footer h3{
+    font-size: 1.5em;
+    margin-right: 5px;
+    color: #eaffff;
+}
+
+#contact_pic{
+    height: auto;
+    width: 100px;
+}

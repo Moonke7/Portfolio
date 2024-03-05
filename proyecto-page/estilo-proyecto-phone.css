@@ -1,0 +1,110 @@
+@media screen and (max-width:800px){
+    body{
+        height: 110vh;
+    }
+    .links__header{
+        right: -10vw;
+        top: -400px;
+        position: absolute;
+        padding: 10px;
+        background: #cffcfe;
+        height: 25vh;
+        width: 30vw;
+        border-radius: 5px;
+        opacity: .9;
+        flex-direction: column-reverse;
+    }
+    .links__header ul{
+        flex-direction: column;
+    }
+    .links__header li{
+        margin-top: 10px;
+    }
+    .links__header li a{
+        color: black;
+    }
+    .links__responsive{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 20%;
+        z-index: 100;
+        position: relative;
+        top: 0;
+    }
+
+    /* SECTION */
+    .section__container{
+        height: 90%;
+    }
+    .titulo{
+        height: 10%;
+        width: 90%;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        border-bottom: solid black 4px;
+    }
+    .titulo h1{
+        font-family: "Protest Strike";
+        font-size: 2.8em;
+    }
+    .proyectos{
+        justify-content: end;
+        height: 80%;
+        flex-direction: column;
+    }
+    .gruasmcv1, .sweetbyte, .gruasmcv2{
+        width: 100%;
+        height: 33%;
+        position: relative;
+    }
+    .hover{
+        height: 170%;
+    }
+    .leer{
+        height: 20%;
+    }
+    .info{
+        height: 40%;
+        width: 80%;
+    }
+    .visitar{
+        width: 40%;
+        height: 10%;
+    }
+    .texto__info{
+        height: 60%;
+    }
+
+
+    /* LINKS SECTION */
+
+    .links__section{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .Proyectos, .sobre-mi{
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 85%;
+        height: 30%;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 30px;
+    }
+    .links__section h2{
+        position: absolute;
+        left: 5%;
+        top: 7%;
+        font-size: 4.6em;
+        font-family: sans-serif;
+    }
+
+    footer{
+        height: 10vh;
+    }
+    
+}

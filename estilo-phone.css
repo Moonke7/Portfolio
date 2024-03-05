@@ -1,0 +1,98 @@
+@media screen and (max-width:800px){
+    .links__header{
+        right: -10vw;
+        top: -400px;
+        position: absolute;
+        padding: 10px;
+        background: #cffcfe;
+        height: 25vh;
+        width: 30vw;
+        border-radius: 5px;
+        opacity: .9;
+        flex-direction: column-reverse;
+    }
+    .links__header ul{
+        flex-direction: column;
+    }
+    .links__header li{
+        margin-top: 10px;
+    }
+    .links__header li a{
+        color: black;
+    }
+    .links__responsive{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 20%;
+        z-index: 100;
+        position: relative;
+        top: 0;
+    }
+
+    /* SECTION */
+    .Informacion{
+        width: 60%;
+    }
+    .Informacion h1{
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    .Informacion h3{
+        font-size: 1em;
+    }
+
+    .repisa{
+        margin-left: 22%;
+        top: -20px;
+        width: 90%;
+    }
+    .soporte{
+        height: 7px;
+    }
+    #libros{
+        margin-bottom: -5px;
+    }
+    .computador{
+        position: absolute;
+        width: 150%;
+        bottom: -10%;
+        right: -50%;
+    }
+    .computador img{
+        width: 130px;
+        height: auto;
+        margin-bottom: -15px;
+        margin-left: 15%;
+    }
+
+    /* LINKS SECTION */
+
+    .links__section{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .Proyectos, .sobre-mi{
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 85%;
+        height: 30%;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 30px;
+    }
+    .links__section h2{
+        position: absolute;
+        left: 5%;
+        top: 7%;
+        font-size: 4.6em;
+        font-family: sans-serif;
+    }
+
+    footer{
+        height: 20vh;
+    }
+    
+}

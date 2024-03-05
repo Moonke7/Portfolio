@@ -1,0 +1,101 @@
+@media screen and (max-width:800px){
+    body{
+        height: auto;
+    }
+    .links__header{
+        right: -10vw;
+        top: -400px;
+        position: absolute;
+        padding: 10px;
+        background: #cffcfe;
+        height: 25vh;
+        width: 30vw;
+        border-radius: 5px;
+        opacity: .9;
+        flex-direction: column-reverse;
+    }
+    .links__header ul{
+        flex-direction: column;
+    }
+    .links__header li{
+        margin-top: 10px;
+    }
+    .links__header li a{
+        color: black;
+    }
+    .links__responsive{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 20%;
+        z-index: 100;
+        position: relative;
+        top: 0;
+    }
+
+    /* SECTION */
+    
+    section{
+        height: auto;
+        padding-bottom: 10%;
+        padding-left: 5%;
+    }
+    .section h1{
+        margin: 0;
+    }
+    .bloques__container{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contacto__section{
+        opacity: 0;
+    }
+    .sobremi, .servicios, .estudios{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin-top: 20%;
+        background: none;
+        box-shadow: none;
+
+    }
+    .sobremi img{
+        top: 10px;
+        right: 10px;
+    }
+
+    
+    /* LINKS SECTION */
+
+    .links__section{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .Proyectos, .sobre-mi{
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 85%;
+        height: 30%;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 30px;
+    }
+    .links__section h2{
+        position: absolute;
+        left: 5%;
+        top: 7%;
+        font-size: 4.6em;
+        font-family: sans-serif;
+    }
+
+    footer{
+        height: 10vh;
+    }
+    
+}
